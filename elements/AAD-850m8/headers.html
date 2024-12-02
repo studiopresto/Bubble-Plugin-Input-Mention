@@ -1,0 +1,31 @@
+<style>
+    .typeahead {
+    	list-style: none;
+        padding: 0;
+        position: absolute;
+        z-index: 10000!important;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    .typeahead a {
+    	display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    .typeahead a .mention_image{
+    	border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+    .active .mention_username {
+    	color: #000!important;
+    }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-mention@1.0.0/recommended-styles.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery-mention@1.0.0/bootstrap-typeahead.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-mention@1.0.0/mention.js"></script>

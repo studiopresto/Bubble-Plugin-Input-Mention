@@ -1,0 +1,66 @@
+{
+    "add_is_visible": true,
+    "add_large_file_upload_properties": false,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Input Mention",
+    "fields": {
+        "AAE": {
+            "caption": "element_id",
+            "editor": "StaticText",
+            "name": "element_id",
+            "rank": 1
+        },
+        "AAG": {
+            "caption": "content_type",
+            "editor": "custom_type",
+            "name": "content_type",
+            "rank": 2,
+            "value": "_any_thing"
+        },
+        "AAI": {
+            "caption": "data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "data",
+            "rank": 3,
+            "value": "custom_data_AAG"
+        },
+        "AAK": {
+            "caption": "Name Field",
+            "editor": "custom_field_AAG",
+            "field_type_restriction": "text_image_file",
+            "name": "name_field",
+            "rank": 4
+        },
+        "AAL": {
+            "caption": "Image Field",
+            "editor": "custom_field_AAG",
+            "field_type_restriction": "text_image_file",
+            "name": "image_field",
+            "rank": 5
+        },
+        "AAM": {
+            "caption": "Delimiter",
+            "editor": "StaticText",
+            "name": "delimiter",
+            "rank": 0
+        }
+    },
+    "has_reset_fn": false,
+    "icon": "ion-closed-captioning",
+    "states": {
+        "AAJ": {
+            "caption": "users",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n   \n\n}"
+            },
+            "is_list": true,
+            "name": "mentioned_users",
+            "value": "custom_data_AAG"
+        }
+    }
+}

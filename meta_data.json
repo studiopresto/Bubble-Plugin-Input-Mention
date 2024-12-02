@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "compliance",
+        "1": "data (things)"
+    },
+    "data_tracked": false,
+    "demo_page": "https://bubble.io/page?id=newnew-11547&test_plugin=1730986065505x716006670160887800_current&tab=Design&name=index",
+    "description": "Mentioning users by mention.js plugin on inputs",
+    "image": "//meta-q.cdn.bubble.io/f1731570493435x874202301723335200/Screenshot%202024-11-14%20094733.png",
+    "license": "open_source",
+    "name": "Input Mention",
+    "plugin_instructions": "Setup in the Plugin Editor\nExposed Fields:\n\nAdd the following fields to the \"Fields\" section of the plugin editor:\n\ndelimiter (Type: Text).\nAdd delimiter symbol, from which you can choose mentions.\n\nelement_id (Type: Text).\nThe HTML ID of the input element where the mention feature will be activated. It can be input or textarea\n\ndata (Type: List, Data Type: Your desired data type).\nThis will be the source for the user list.\n\ncontent_type (Type: List, Data Type: Your desired data type)\nDo search for command for adding data.\n\nname_field (Type: Text).\nName of the field in your data source representing usernames.\n\nimage_field (Type: Text).\nName of the field in your data source representing user profile pictures.\n\n\nExposed States:\n\nAdd the following state to the \"Exposed States\" section:\nmentioned_users (Type: List, Data Type: Your desired data type).\nThis will store the list of IDs for users mentioned in the input."
+}
